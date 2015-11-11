@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"valid_add",
+				"valid_address"
+			],
+			[
 				"padd",
 				"padding-top"
 			],
@@ -160,18 +164,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/assets/stylesheets/custom.scss",
+			"file": "test/models/user_test.rb",
 			"settings":
 			{
-				"buffer_size": 1054,
+				"buffer_size": 1596,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/_header.html.erb",
+			"file": "Gemfile",
 			"settings":
 			{
-				"buffer_size": 419,
+				"buffer_size": 1581,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 864,
 				"line_ending": "Unix"
 			}
 		}
@@ -243,16 +255,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 254.0,
-		"last_filter": "install ",
+		"height": 313.0,
+		"last_filter": "install",
 		"selected_items":
 		[
 			[
-				"install ",
+				"install",
 				"Package Control: Install Package"
 			],
 			[
-				"install",
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
 				"Package Control: Install Package"
 			],
 			[
@@ -488,7 +504,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 550.0
+		"width": 352.0
 	},
 	"console":
 	{
@@ -507,11 +523,25 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards"
+	],
 	"file_history":
 	[
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/fixtures/users.yml",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111194202_add_index_to_users_email.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111202007_add_password_digest_to_users.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/models/user.rb",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_header.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/models/user_test.rb",
+		"/Users/fergusbarratt/.bash_profile",
+		"/Users/fergusbarratt/bash/.git/MERGE_MSG",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/index.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/application.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/index.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/layouts/_header.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/assets/stylesheets/custom.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/application.scss",
@@ -531,7 +561,6 @@
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/new.html.erb",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/TestCarmichael#test_coprimes [/Users/fergusbarratt/Dropbox/ProjectEuler/533/test_carmichael.rb",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/531/531.rb",
-		"/Users/fergusbarratt/.bash_profile",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/home.html.erb",
 		"/Applications/MAMP/htdocs/index.html",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/Gemfile",
@@ -546,7 +575,6 @@
 		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/config/routes.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/testfile.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/Gemfile",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimationJC.py",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/README.md",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
@@ -628,15 +656,7 @@
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/TheMasterEquation.tex",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Project Outline/Project Outline.tex",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/CarmichaelPaperSummary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/JaynesCummingModel.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/Summary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/plotseries.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/Qss.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Mathematica/Quasi Probability Functions.nb",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/QuasiProbabilityDistributions.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Summary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/TheMasterEquation.tex",
-		"/Applications/MATLAB_R2015a.app/bin/matlab"
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/JaynesCummingModel.tex"
 	],
 	"find":
 	{
@@ -654,6 +674,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"table-header\"",
+			"p",
 			"div",
 			"nav",
 			"div",
@@ -741,63 +763,94 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/assets/stylesheets/custom.scss",
+					"file": "test/models/user_test.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1054,
+						"buffer_size": 1596,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								181,
-								181
+								197,
+								197
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								985,
+								985
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 193.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/views/layouts/_header.html.erb",
+					"buffer": 2,
+					"file": "/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 419,
+						"buffer_size": 864,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								50,
-								50
+								790,
+								790
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"auto_complete": true,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 356.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -884,7 +937,7 @@
 		[
 			[
 				"",
-				"Matlab/GuidePlot.fig"
+				"app/assets/stylesheets/custom.scss"
 			]
 		],
 		"width": 0.0
@@ -918,8 +971,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 169.0,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
