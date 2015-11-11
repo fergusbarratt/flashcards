@@ -26,6 +26,23 @@ textarea {
     }
 }
 
+.flashcard-table {
+    thead {
+        text-transform: uppercase;
+    }
+    th, td {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+}
+
+.flashcard-create {
+    a {
+        position:relative;
+        float: right;
+        bottom: 0px;
+    }
+}
 
 /* typography */
 
@@ -71,9 +88,9 @@ p {
     padding-top: 9px;
     font-weight: bold;
     a {
-        color: #EBE6FF;
+        color: #FFEFFD;
         &:hover {
-            color: #36EDFF    ;
+            color: #FF6153;
             text-decoration: none;
         }
     }
@@ -99,6 +116,7 @@ p {
         float: left;
         list-style: none;
         position: relative;
+        color: #678C9B;
         top: 50%;
         transform: translateY(-50%);
     }
