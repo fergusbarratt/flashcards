@@ -4,8 +4,26 @@
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
+@mixin box_sizing {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 
 /* universal */
+
+.debug_dump {
+    clear: both;
+    float: left;
+    width: 100%;
+    bottom: 20px;
+    position: absolute;
+    padding-bottom: 40px;
+    @include box_sizing;
+}
 
 body {
     padding-top: 60px;
@@ -30,7 +48,8 @@ textarea {
     thead {
         text-transform: uppercase;
     }
-    th, td {
+    th,
+    td {
         padding-right: 5px;
         padding-left: 5px;
     }
@@ -38,11 +57,12 @@ textarea {
 
 .flashcard-create {
     a {
-        position:relative;
+        position: relative;
         float: right;
         bottom: 0px;
     }
 }
+
 
 /* typography */
 
@@ -79,19 +99,38 @@ p {
 
 /* header */
 
-.logo {
-    float: left;
-    margin-right: 10px;
-    font-size: 1.7em;
-    text-transform: lowercase;
-    letter-spacing: -1px;
-    padding-top: 9px;
-    font-weight: bold;
-    a {
-        color: #FFEFFD;
-        &:hover {
-            color: #FF6153;
-            text-decoration: none;
+header {
+    .logo {
+        float: left;
+        margin-left: 10px;
+        font-size: 2.4em;
+        text-transform: lowercase;
+        letter-spacing: -1px;
+        font-weight: bold;
+        a {
+            color: #6F6F6F;
+            &:hover {
+                color: #FF6153;
+                text-decoration: none;
+            }
+        }
+    }
+    .rheader {
+        float: right;
+        margin-right: 10px;
+        text-transform: lowercase;
+        margin-top: 9px;
+        li {
+            display: inline;
+            padding-right: 5px;
+        }
+        a {
+            color: #6F6F6F;
+            margin-top: 9px;
+            &:hover {
+                color: #FF6153;
+                text-decoration: none;
+            }
         }
     }
 }
@@ -116,9 +155,9 @@ p {
         float: left;
         list-style: none;
         position: relative;
-        color: #678C9B;
+        color: #707070;
+        transform: translateY(-60%);
         top: 50%;
-        transform: translateY(-50%);
     }
     .rfooter {
         float: right;
@@ -126,5 +165,12 @@ p {
         position: relative;
         top: 50%;
         transform: translateY(-60%);
+        a {
+            color: #AC3654;
+            &:hover {
+                color: #6F6F6F;
+                text-decoration: none;
+            }
+        }
     }
 }
