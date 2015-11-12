@@ -3,10 +3,10 @@
 
 <%= form_for(@flashcard) do |f| %>
   <%= f.label :front %>
-  <%= f.text_field :front, class: 'form-control' %>
+  <%= f.text_field :front%>
 
   <%= f.label :back %>
-  <%= f.email_field :back, class: 'form-control' %>
+  <%= f.email_field :back%>
 
   <%= f.submit "create card", class: "btn btn-primary" %>
 <% end %>
