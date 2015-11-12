@@ -1,6 +1,14 @@
 <%= provide(:title, "new card") %>
-<h1>New Flashcard</h1>
+<h1> new card</h1>
 
-<%= render 'form' %>
+<%= form_for(@flashcard) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :front, class: 'form-control' %>
+
+  <%= f.label :email %>
+  <%= f.email_field :back, class: 'form-control' %>
+
+  <%= f.submit "create card", class: "btn btn-primary" %>
+<% end %>
 
 <%= link_to 'Back', flashcards_path %>

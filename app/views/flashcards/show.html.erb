@@ -1,15 +1,24 @@
 <%= provide(:title, "show cards") %>
 <p id="notice"><%= notice %></p>
-
-<p>
+<div class="row">
+  <div class="col-md-6 front-show center"><p>
   <strong>Front:</strong>
+  <br>
   <%= @flashcard.front %>
 </p>
-
-<p>
+<div class="flashspacer"></div>
+</div>
+<div class="col-md-6 back-show center"><p>
   <strong>Back:</strong>
+  <br>
   <%= @flashcard.back %>
-</p>
+</p></div>
+<div class="flashspacer"></div>
+</div>
 
-<%= link_to 'Edit', edit_flashcard_path(@flashcard) %> |
-<%= link_to 'Back', flashcards_path %>
+
+
+<div class="showlinks">
+  <%= link_to 'Edit', edit_flashcard_path(@flashcard) %> |
+  <%= link_to 'Back', flashcards_path %>
+  </div>

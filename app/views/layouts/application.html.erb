@@ -8,11 +8,13 @@
   <%= render 'layouts/shim' %>
 </head>
 <body>
-<div class="container-fluid"> 
-    <div class="row-fluid"><%= render 'layouts/header' %></div>
-    <div class="row-fluid"> <%= yield %> </div>
-    <div class="debug_dump"><%= debug(params) if Rails.env.development? %></div>
-    <div class="row-fluid"> <%= render 'layouts/footer' %> </div>
+  <div class="container-fluid"> 
+    <div class="header"><%= render 'layouts/header' %></div>
+    <div class="content"> <%= yield %>   
+      <div class="clearfooter"></div>
+    </div>
+    <!--     <div class="debug_dump"><%= debug(params) if Rails.env.development? %></div> -->
+    <div class="footer"> <%= render 'layouts/footer' %> </div>
   </div>  
 </body>
 </html>
