@@ -10,6 +10,7 @@ class FlashcardsController < ApplicationController
   # GET /flashcards/1
   # GET /flashcards/1.json
   def show
+    @flashcard = Flashcard.find(params[:id])
   end
 
   # GET /flashcards/new
@@ -28,7 +29,7 @@ class FlashcardsController < ApplicationController
 
     respond_to do |format|
       if @flashcard.save
-        format.html { redirect_to @flashcard, notice: 'Flashcard was successfully created.' }
+        format.html { redirect_to @flashcard, notice: 'flashcard was successfully created.' }
         format.json { render :show, status: :created, location: @flashcard }
       else
         format.html { render :new }
@@ -42,7 +43,7 @@ class FlashcardsController < ApplicationController
   def update
     respond_to do |format|
       if @flashcard.update(flashcard_params)
-        format.html { redirect_to @flashcard, notice: 'Flashcard was successfully updated.' }
+        format.html { redirect_to @flashcard, notice: 'flashcard was successfully updated.' }
         format.json { render :show, status: :ok, location: @flashcard }
       else
         format.html { render :edit }
@@ -56,7 +57,7 @@ class FlashcardsController < ApplicationController
   def destroy
     @flashcard.destroy
     respond_to do |format|
-      format.html { redirect_to flashcards_url, notice: 'Flashcard was successfully destroyed.' }
+      format.html { redirect_to flashcards_url, notice: 'flashcard was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

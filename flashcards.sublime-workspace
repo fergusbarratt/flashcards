@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"mi-",
+				"min-width"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"show",
+				"showlinks	(custom.scss)"
+			],
+			[
+				"clear",
+				"clearfooter	(application.html.erb)"
+			],
+			[
+				"tex",
+				"textarea"
+			],
+			[
+				"gra",
+				"grayish"
+			],
+			[
+				"h2",
+				"h2	Tag"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"debug",
+				"debug_dump	(custom.scss)"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"valid",
+				"valid"
+			],
+			[
+				"asser",
+				"assert_not"
+			],
+			[
 				"valid_add",
 				"valid_address"
 			],
@@ -164,26 +212,18 @@
 	"buffers":
 	[
 		{
-			"file": "test/models/user_test.rb",
+			"file": "app/assets/stylesheets/custom.scss",
 			"settings":
 			{
-				"buffer_size": 1596,
+				"buffer_size": 4740,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Gemfile",
+			"file": "app/views/flashcards/index.html.erb",
 			"settings":
 			{
-				"buffer_size": 1581,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-			"settings":
-			{
-				"buffer_size": 864,
+				"buffer_size": 1124,
 				"line_ending": "Unix"
 			}
 		}
@@ -255,12 +295,20 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 313.0,
-		"last_filter": "install",
+		"height": 306.0,
+		"last_filter": "packages",
 		"selected_items":
 		[
 			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
 				"Package Control: Install Package"
 			],
 			[
@@ -294,10 +342,6 @@
 			[
 				"Snippet: ",
 				"Snippet: Page"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
 			],
 			[
 				"pus",
@@ -504,7 +548,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 352.0
+		"width": 568.0
 	},
 	"console":
 	{
@@ -525,40 +569,64 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards"
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/models/concerns",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards"
 	],
 	"file_history":
 	[
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/index.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/show.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/new.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/users_helper.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111131024_create_users.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111202007_add_password_digest_to_users.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/show.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/flashcards_controller.rb",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/edit.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/_form.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/create.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/new.html.erb",
+		"/Users/fergusbarratt/.bash_profile",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/application.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/models/user_test.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/users_controller_test.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/shared/_error_messages.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/users_controller.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/assets/stylesheets/custom.scss",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_header.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/routes.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Gemfile",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Guardfile",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/static_pages/about.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/user_controller.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/models/user.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/application_helper.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/static_pages.coffee",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/fixtures/users.yml",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111194202_add_index_to_users_email.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111202007_add_password_digest_to_users.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/models/user.rb",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_header.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/models/user_test.rb",
-		"/Users/fergusbarratt/.bash_profile",
 		"/Users/fergusbarratt/bash/.git/MERGE_MSG",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/index.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/application.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/layouts/_header.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/assets/stylesheets/custom.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/application.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/application.js",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Gemfile",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/flashcards.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/application.css",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_shim.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/test_helper.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/test_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/routes.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/controllers/static_pages_controller_test.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/flashcards_controller_test.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/helpers/application_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/flashcards_controller.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/application_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/new.html.erb",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/TestCarmichael#test_coprimes [/Users/fergusbarratt/Dropbox/ProjectEuler/533/test_carmichael.rb",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/531/531.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/home.html.erb",
@@ -639,24 +707,7 @@
 		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.aux",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/SlowingFigure.fig",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/plotQseries.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/TimeDependentSoln.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/CriticalSlowingCurve.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/CriticalSlowingComparison.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/Figure from Carmichael Paper.fig",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/GeneratePlotValues.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/rhoss.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/probevolve.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/ProjectOutline.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/QuasiProbabilityDistributions.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/Literature Review.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/Project Outline.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/iphnumvals.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/GuidePlotData.mat",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/dispstat.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/TheMasterEquation.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Project Outline/Project Outline.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/CarmichaelPaperSummary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/JaynesCummingModel.tex"
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/TimeDependentSoln.m"
 	],
 	"find":
 	{
@@ -674,6 +725,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"padding",
 			"class=\"table-header\"",
 			"p",
 			"div",
@@ -763,97 +815,68 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/models/user_test.rb",
+					"file": "app/assets/stylesheets/custom.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1596,
+						"buffer_size": 4740,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								197,
-								197
+								1347,
+								1347
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 30.0,
+						"translation.y": 2366.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Gemfile",
+					"file": "app/views/flashcards/index.html.erb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1581,
+						"buffer_size": 1124,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								985,
-								985
+								212,
+								212
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 193.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 864,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								790,
-								790
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 356.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -865,7 +888,7 @@
 	},
 	"input":
 	{
-		"height": 31.0
+		"height": 63.0
 	},
 	"layout":
 	{
@@ -937,7 +960,7 @@
 		[
 			[
 				"",
-				"app/assets/stylesheets/custom.scss"
+				"*REPL* [shell]"
 			]
 		],
 		"width": 0.0
@@ -972,7 +995,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 180.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

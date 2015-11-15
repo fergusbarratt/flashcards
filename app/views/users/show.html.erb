@@ -1,8 +1,7 @@
-<%= provide(:title, "users list") %>
-<div class="center page-header">
+<%= provide(:title, @user.name) %>
+<div class="">
   <h2>
-    <%= gravatar_for @user %>
-    <%= @user.name %> 
+    <%= @user.name %>: <br>
     <%= @user.email %>
   </h2>
 </div>
