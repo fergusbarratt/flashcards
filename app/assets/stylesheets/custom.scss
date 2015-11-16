@@ -38,6 +38,10 @@ html {
         &:hover {
             color: $bright-red;
             text-decoration: none;
+        &:active {
+            color: $bright-red;
+            text-decoration: none;
+        }
         }
     }
 }
@@ -239,10 +243,12 @@ p {
     &:active, .active {
         background: $bright-red;
         color: $grayish;
+        text-decoration: none;
     }
     &:hover, .hover {
         background: $grayish;
         color: $bright-red;
+        text-decoration: none;
     }
 }
 
