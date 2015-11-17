@@ -1,1 +1,5 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+fergus:
+  name: Fergus Barratt
+  email: fergus.barratt.12@ucl.ac.uk
+  password_digest: <%= User.digest('password') %>
