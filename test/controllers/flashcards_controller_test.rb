@@ -8,7 +8,7 @@ class FlashcardsControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
-    assert_select "title", "Flashcard Index | Flashcard App"
+    assert_select "title", "card index | flash"
     assert_not_nil assigns(:flashcards)
   end
 
