@@ -1,0 +1,34 @@
+<%= provide(:title, "card index") %>
+<!-- <p id="notice"><%= notice %></p>-->
+<h1 class="center">my flashcards</h1>
+<!-- <h4 class="center">a list of created flashcards</h4> -->
+<div class="container-fluid">
+  <table class="flashcard-table">
+    <thead>
+      <tr>
+        <th><div class="flashcard-head">Front</div></th>
+        <th><div class="flashcard-head">Back </div></th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+  
+    <tbody>
+      <% @flashcards.each do |flashcard| %>
+      <tr>
+        <td><div class="colwrapper">
+          <div class="flashcard-summary"><%= flashcard.front %></div>
+        </div></td>
+        <td><div class="colwrapper"><div class="flashcard-summary"><%= flashcard.back %></div> </div></td>
+        <td><%= link_to 'Show', flashcard %></td>
+        <td><%= link_to 'Edit', edit_flashcard_path(flashcard) %></td>
+        <td><%= link_to 'Destroy', flashcard, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<!-- <br> -->
+</div>
+<div class="flashcard-create">
+  <%= link_to 'New Flashcard', new_flashcard_path %>
+</div>
