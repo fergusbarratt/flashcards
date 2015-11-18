@@ -1,7 +1,7 @@
 <%= provide(:title, @user.name) %>
 <div class="">
   <h2>
-  <% if current_user == @user %>
+  <% if current_user == @user || current_user.admin? %>
     <%= @user.name %>: <br>
     <%= @user.email %> <br>
     <%= link_to "edit user", edit_user_path(current_user) %>
