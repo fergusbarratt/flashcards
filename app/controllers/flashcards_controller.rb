@@ -4,18 +4,18 @@ class FlashcardsController < ApplicationController
   # GET /flashcards
   # GET /flashcards.json
   def index
-    @flashcards = Flashcard.all
+    @flashcards = current_user.flashcards.all
   end
 
   # GET /flashcards/1
   # GET /flashcards/1.json
   def show
-    @flashcard = Flashcard.find(params[:id])
+    @flashcard = current_user.flashcards.find(params[:id])
   end
 
   # GET /flashcards/new
   def new
-    @flashcard = Flashcard.new
+    @flashcard = current_user.flashcards.new
   end
 
   # GET /flashcards/1/edit
@@ -25,7 +25,7 @@ class FlashcardsController < ApplicationController
   # POST /flashcards
   # POST /flashcards.json
   def create
-    @flashcard = Flashcard.new(flashcard_params)
+    @flashcard = current_user.flashcards.new(flashcard_params)
 
     respond_to do |format|
       if @flashcard.save
