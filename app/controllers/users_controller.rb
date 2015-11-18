@@ -6,6 +6,10 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
   end
 
+  def index
+    @users = User.all
+  end
+
   def new
     @user = User.new
   end
@@ -41,6 +45,7 @@ class UsersController < ApplicationController
     end
     def logged_in_user
       unless logged_in?
+        store_location
         flash[:danger] = "log in to get to this page"
         redirect_to login_url
       end
