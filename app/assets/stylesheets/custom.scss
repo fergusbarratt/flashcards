@@ -15,7 +15,16 @@ $light-grayish: #A7A7A7;
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
-
+ /* users index */
+ .users {
+   list-style: none;
+   margin: 0;
+   li {
+     overflow: auto;
+     padding: 10px 0;
+     border-bottom: 1px solid $gray-lighter;
+   }
+ }
 
 /* universal */
 
@@ -245,6 +254,9 @@ p {
     }
 }
 
+.flash {
+    padding-top: 30px;
+}
 /* content */
 
 .content {

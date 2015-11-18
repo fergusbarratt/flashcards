@@ -4,150 +4,6 @@
 		"selected_items":
 		[
 			[
-				"con",
-				"console	(Gemfile)"
-			],
-			[
-				"remember_",
-				"remember_digest"
-			],
-			[
-				"rememb",
-				"remember_token"
-			],
-			[
-				"remem",
-				"remember_digest"
-			],
-			[
-				"login",
-				"login_path"
-			],
-			[
-				"user",
-				"user_id"
-			],
-			[
-				"fin",
-				"find_by_sql〔function〕"
-			],
-			[
-				"new",
-				"newflashspacer	(custom.scss)"
-			],
-			[
-				"sign",
-				"signup_path	(users_signup_test.rb)"
-			],
-			[
-				"signup",
-				"signup_path"
-			],
-			[
-				"brigh",
-				"bright-red"
-			],
-			[
-				"mi-",
-				"min-width"
-			],
-			[
-				"margi",
-				"margin-top"
-			],
-			[
-				"show",
-				"showlinks	(custom.scss)"
-			],
-			[
-				"clear",
-				"clearfooter	(application.html.erb)"
-			],
-			[
-				"tex",
-				"textarea"
-			],
-			[
-				"gra",
-				"grayish"
-			],
-			[
-				"h2",
-				"h2	Tag"
-			],
-			[
-				"cont",
-				"container"
-			],
-			[
-				"debug",
-				"debug_dump	(custom.scss)"
-			],
-			[
-				"password",
-				"password_confirmation"
-			],
-			[
-				"valid",
-				"valid"
-			],
-			[
-				"asser",
-				"assert_not"
-			],
-			[
-				"valid_add",
-				"valid_address"
-			],
-			[
-				"padd",
-				"padding-top"
-			],
-			[
-				"paddi",
-				"padding-left"
-			],
-			[
-				"pad",
-				"padding-right"
-			],
-			[
-				"get",
-				"1.get_coprimes"
-			],
-			[
-				"is",
-				"5.isprime?"
-			],
-			[
-				"ti",
-				"title"
-			],
-			[
-				"p",
-				"pylab_setup	function"
-			],
-			[
-				"proj",
-				"project_ground"
-			],
-			[
-				"grou",
-				"ground_exp"
-			],
-			[
-				"qubit",
-				"qubit_integrate"
-			],
-			[
-				"func",
-				"functype"
-			],
-			[
-				"els",
-				"elseif	elseif"
-			],
-			[
 				"solve",
 				"solve_jc_system"
 			],
@@ -198,6 +54,10 @@
 			[
 				"coh",
 				"coherent_dm"
+			],
+			[
+				"p",
+				"pop"
 			],
 			[
 				"CriticalSo",
@@ -256,49 +116,13 @@
 	"buffers":
 	[
 	],
-	"build_system": "",
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
 	"build_system_choices":
 	[
 		[
 			[
 				[
 					"Packages/LaTeXTools/LaTeX.sublime-build",
-					""
-				],
-				[
-					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/LaTeXTools/LaTeX.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				],
-				[
-					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
-					""
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		],
-		[
-			[
-				[
-					"Packages/Ruby/Ruby.sublime-build",
 					""
 				],
 				[
@@ -315,7 +139,7 @@
 				]
 			],
 			[
-				"Packages/Ruby/Ruby.sublime-build",
+				"Packages/LaTeXTools/LaTeX.sublime-build",
 				""
 			]
 		]
@@ -323,98 +147,10 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 254.0,
+		"height": 118.0,
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"install ",
-				"Package Control: Install Package"
-			],
-			[
-				"packages",
-				"Package Control: List Packages"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
-			],
-			[
-				"enable ",
-				"SublimeLinter: Enable Linter"
-			],
-			[
-				"linte",
-				"SublimeLinter: Show Errors on Save"
-			],
-			[
-				"lin",
-				"SublimeLinter: Lint This View"
-			],
-			[
-				"linter",
-				"SublimeLinter: Enable Linter"
-			],
-			[
-				"git push",
-				"Git: Push"
-			],
-			[
-				"Snippet: ",
-				"Snippet: Page"
-			],
-			[
-				"pus",
-				"Git: Push"
-			],
-			[
-				"latexto",
-				"LaTeXTools: Reconfigure and migrate settings"
-			],
-			[
-				"prv",
-				"PackageResourceViewer: Open Resource"
-			],
-			[
-				"git sta",
-				"Git: Status"
-			],
-			[
-				"package ins",
-				"Package Control: Install Package"
-			],
-			[
-				"prvc",
-				"PackageResourceViewer: Open Resource"
-			],
-			[
-				"show",
-				"SublimeLinter: Show All Errors"
-			],
-			[
-				"remove",
-				"Package Control: Remove Package"
-			],
-			[
-				"git sts",
-				"Git: Status"
-			],
-			[
-				"status",
-				"Git: Status"
-			],
-			[
-				"package",
-				"Package Control: Remove Package"
-			],
 			[
 				"git pus",
 				"Git: Push"
@@ -428,12 +164,20 @@
 				"SublimeREPL: Python"
 			],
 			[
+				"git push",
+				"Git: Push"
+			],
+			[
 				"git stat",
 				"Git: Status"
 			],
 			[
 				"repl python",
 				"SublimeREPL: Python"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
 			],
 			[
 				"python ",
@@ -460,8 +204,16 @@
 				"SublimeREPL: Python - IPython"
 			],
 			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
 				"package rev",
 				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
 			],
 			[
 				"sublimereplpytho",
@@ -576,11 +328,11 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 406.0
+		"width": 417.0
 	},
 	"console":
 	{
-		"height": 93.0,
+		"height": 125.0,
 		"history":
 		[
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
@@ -597,138 +349,87 @@
 	},
 	"file_history":
 	[
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_signup_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/sessions_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/.git/MERGE_MSG",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/helpers/sessions_helper_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/sessions_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/sessions/new.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/application.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/new.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_login_test.rb",
-		"/Users/fergusbarratt/.bash_profile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_header.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/models/user.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/models/user_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/test_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Gemfile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/users_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/users_helper.rb",
-		"/Users/fergusbarratt/.bash_",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/routes.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/create.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/environments/development.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151117183600_add_remember_digest_to_users.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/application.js",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/flashcards.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/sessions.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/static_pages.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/users.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/application_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/sessions_controller_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/fixtures/users.yml",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151110221728_create_flashcards.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/README.md",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/.travis.yml",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/gets/production.log",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/gets/production.l",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/gets/production..lo",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/application_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/initializers/backtrace_silencers.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/flashcards_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/environments/test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Rakefile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/server.csr",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/yourdomain.csr",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/new.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/flashcards_controller_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/show.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/index.html.erb",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/flashcards.scss",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/application.scss",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/scaffolds.scss",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111131024_create_users.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111202007_add_password_digest_to_users.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/show.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/edit.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/_form.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/users_controller_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/shared/_error_messages.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/assets/stylesheets/custom.scss",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Guardfile",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/static_pages/about.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/user_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111194202_add_index_to_users_email.rb",
-		"/Users/fergusbarratt/bash/.git/MERGE_MSG",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/layouts/_header.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/application.css",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_shim.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/test_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/controllers/static_pages_controller_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/helpers/application_helper.rb",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/TestCarmichael#test_coprimes [/Users/fergusbarratt/Dropbox/ProjectEuler/533/test_carmichael.rb",
-		"/Users/fergusbarratt/Dropbox/ProjectEuler/531/531.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/home.html.erb",
-		"/Applications/MAMP/htdocs/index.html",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/Gemfile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/layouts/application.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/notes.md",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/.git/COMMIT_EDITMSG",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/helpers/static_pages_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/about.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/help.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/app/controllers/application_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/toy_app/Gemfile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/config/routes.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/testfile.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/hello_app/Gemfile",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimationJC.py",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/README.md",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/fergusbarratt/Dropbox/Olivia's CV/cv_12.tex",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimation.py",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/PlotQPSeries.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/CarmichaelPaperSummary.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Readme.md",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/LiteratureReview.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/TheMasterEquation.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/bloch_sphere.mp4",
-		"/opt/local/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/qutip/bloch.py",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/rhoss.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/iphnumvals.m",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/LaTeXTools/README.markdown",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python/Main.sublime-menu",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/JaynesCummings.py",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/test qutip.py",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/Main.sublime-menu",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL (OSX).sublime-settings",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/Python/Python.sublime-build",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/CriticalSlowingComparison.m",
-		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/timedependentsoln.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Qss.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/Slowing.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/HighResCarmichaelPlot.fig",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/BlochAnimationJC.py",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/probevolve.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/bloch_sphere.mp4",
 		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/matplotlib/animation.py",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Python/JaynesCummings.py",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Matlab.sublime-build",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/GeneratePlotValues.m",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/plotseries.m",
-		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/qutip/mesolve.py"
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/qutip/mesolve.py",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/iphnumvals.m",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/qutip/superoperator.py",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scipy/sparse/compressed.py",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/python3.sublime-build",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/GuidePlot.fig",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/Pylinter/Pylinter.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Pylinter.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fergusbarratt/CoverLetter.tex",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/python3.sublime-build",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/CarmichaelPaperSummary.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/NeoclassicalDecay.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/HighResCarmichaelPlot.fig",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/NeoclassicalDecay.nb",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/Script.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/LiteratureReview.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/TitlePage.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/ProjectOutline.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/QuasiProbabilityFunctions.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/Quasi Probability Functions.nb",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/JaynesCummingModel.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/TheMasterEquation.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.aux",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/SlowingFigure.fig",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/plotQseries.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/TimeDependentSoln.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/CriticalSlowingCurve.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/CriticalSlowingComparison.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/Figure from Carmichael Paper.fig",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/GeneratePlotValues.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/rhoss.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/probevolve.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/ProjectOutline.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/QuasiProbabilityDistributions.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/Literature Review.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/Project Outline.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/iphnumvals.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/GuidePlotData.mat",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/dispstat.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/TheMasterEquation.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Project Outline/Project Outline.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/CarmichaelPaperSummary.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/JaynesCummingModel.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Literature Review/Summary.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/plotseries.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Matlab/Qss.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Mathematica/Quasi Probability Functions.nb",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/QuasiProbabilityDistributions.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/Summary.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TeX/TheMasterEquation.tex",
+		"/Applications/MATLAB_R2015a.app/bin/matlab",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/CarmichaelPaperSummary.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TheMasterEquation.aux",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Summary.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/TheMasterEquation.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Bibliography.bib",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Summary.aux",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Summary/Summary.sublime-project"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -742,29 +443,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"033",
-			"padding",
-			"class=\"table-header\"",
-			"p",
-			"div",
-			"nav",
-			"div",
-			"link_to",
-			"50",
-			"position: absolute",
-			"@atestnum",
-			"end",
-			"length",
-			"w",
-			"equation",
-			"));",
-			"rhoss",
-			"sx",
-			"    //",
-			"Yrange",
-			"ge",
-			", Xrange, Yrange",
-			"qfunc(rhoss(E, det, N, g, kappa)",
 			"sigmam",
 			"sx",
 			"sz",
@@ -840,11 +518,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 0.0
 	},
 	"input":
 	{
-		"height": 63.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -885,10 +563,6 @@
 	{
 		"height": 100.0
 	},
-	"output.git-pull":
-	{
-		"height": 144.0
-	},
 	"output.git-push":
 	{
 		"height": 100.0
@@ -897,15 +571,11 @@
 	{
 		"height": 98.0
 	},
-	"output.markdown":
-	{
-		"height": 144.0
-	},
 	"pinned_build_system": "",
 	"project": "flashcards.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 62.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -916,7 +586,7 @@
 		[
 			[
 				"",
-				"*REPL* [shell]"
+				"Matlab/GuidePlot.fig"
 			]
 		],
 		"width": 0.0
@@ -929,7 +599,7 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/_sublime/WebsiteProject.sublime-project"
+				"~/Dropbox/RubyProject/flashcards/flashcards.sublime-workspace"
 			]
 		],
 		"width": 380.0
