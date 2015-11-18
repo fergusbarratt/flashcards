@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :flashcards
-  root 'flashcards#index'
+  root 'static_pages#index'
   get 'about' => 'static_pages#about'
   get 'contact' => 'static_pages#contact'
   get 'signup' => 'users#new'
