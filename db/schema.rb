@@ -11,14 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151118203114) do
+ActiveRecord::Schema.define(version: 20151118222457) do
 
   create_table "flashcards", force: :cascade do |t|
     t.string   "front"
     t.string   "back"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer  "user_id"
   end
+
+  add_index "flashcards", ["user_id"], name: "index_flashcards_on_user_id"
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
