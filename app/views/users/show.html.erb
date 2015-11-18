@@ -1,8 +1,13 @@
 <%= provide(:title, @user.name) %>
 <div class="">
   <h2>
+  <% if current_user == @user %>
     <%= @user.name %>: <br>
     <%= @user.email %> <br>
     <%= link_to "edit user", edit_user_path(current_user) %>
+    <% else %>
+    <% flash.now[:danger] = 'not you. click below to return home'%>
+    <%= link_to 'user home', root_path %>
+    <% end %>
   </h2>
 </div>
