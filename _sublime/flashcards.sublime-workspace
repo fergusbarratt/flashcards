@@ -220,26 +220,26 @@
 	"buffers":
 	[
 		{
-			"file": "test/integration/users_signup_test.rb",
+			"file": "/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
 			"settings":
 			{
-				"buffer_size": 638,
+				"buffer_size": 5307,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "server.csr",
+			"file": "/Users/fergusbarratt/Dropbox/RubyProject/flashcards/.git/MERGE_MSG",
 			"settings":
 			{
-				"buffer_size": 1143,
+				"buffer_size": 313,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "yourdomain.csr",
+			"file": "/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
 			"settings":
 			{
-				"buffer_size": 1123,
+				"buffer_size": 230,
 				"line_ending": "Unix"
 			}
 		}
@@ -586,14 +586,17 @@
 	"expanded_folders":
 	[
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/static_pages",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration"
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts"
 	],
 	"file_history":
 	[
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_header.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/_sublime/server.csr",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/_sublime/test/integration/users_signup_test.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/_sublime/yourdomain.csr",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/server.csr",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/new.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/new.html.erb",
@@ -610,7 +613,6 @@
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/scaffolds.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/users_controller.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/create.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_header.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/routes.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/users_helper.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111131024_create_users.rb",
@@ -619,7 +621,6 @@
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/flashcards_controller.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/edit.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/_form.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
 		"/Users/fergusbarratt/.bash_profile",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/models/user_test.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/users_controller_test.rb",
@@ -718,10 +719,7 @@
 		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/TitlePage.tex",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/ProjectOutline.tex",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/QuasiProbabilityFunctions.m",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/Quasi Probability Functions.nb",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/JaynesCummingModel.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.tex",
-		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/QuasiProbabilityDistributions.aux"
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/Quasi Probability Functions.nb"
 	],
 	"find":
 	{
@@ -829,83 +827,54 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/integration/users_signup_test.rb",
+					"file": "/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 638,
+						"buffer_size": 5307,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								626,
-								626
+								4567,
+								4567
 							]
 						],
 						"settings":
 						{
-							"auto_complete": false,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 163.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "server.csr",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1143,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1142,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4407.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "yourdomain.csr",
+					"buffer": 1,
+					"file": "/Users/fergusbarratt/Dropbox/RubyProject/flashcards/.git/MERGE_MSG",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1123,
+						"buffer_size": 313,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								826,
-								826
+								25,
+								25
 							]
 						],
 						"settings":
@@ -917,6 +886,34 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1031,12 +1028,12 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
-	"show_tabs": true,
+	"show_tabs": false,
 	"side_bar_visible": true,
-	"side_bar_width": 180.0,
-	"status_bar_visible": true,
+	"side_bar_width": 171.0,
+	"status_bar_visible": false,
 	"template_settings":
 	{
 	}

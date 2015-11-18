@@ -4,42 +4,6 @@
 		"selected_items":
 		[
 			[
-				"con",
-				"console	(Gemfile)"
-			],
-			[
-				"remember_",
-				"remember_digest"
-			],
-			[
-				"rememb",
-				"remember_token"
-			],
-			[
-				"remem",
-				"remember_digest"
-			],
-			[
-				"login",
-				"login_path"
-			],
-			[
-				"user",
-				"user_id"
-			],
-			[
-				"fin",
-				"find_by_sql〔function〕"
-			],
-			[
-				"new",
-				"newflashspacer	(custom.scss)"
-			],
-			[
-				"sign",
-				"signup_path	(users_signup_test.rb)"
-			],
-			[
 				"signup",
 				"signup_path"
 			],
@@ -323,7 +287,7 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 254.0,
+		"height": 285.0,
 		"last_filter": "",
 		"selected_items":
 		[
@@ -576,7 +540,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 406.0
+		"width": 413.0
 	},
 	"console":
 	{
@@ -597,80 +561,59 @@
 	},
 	"file_history":
 	[
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_signup_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/sessions_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/.git/MERGE_MSG",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/helpers/sessions_helper_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/sessions_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/sessions/new.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/application.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/new.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_login_test.rb",
-		"/Users/fergusbarratt/.bash_profile",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_header.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/models/user.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/models/user_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/test_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Gemfile",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/users_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/users_helper.rb",
-		"/Users/fergusbarratt/.bash_",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/routes.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/create.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/environments/development.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151117183600_add_remember_digest_to_users.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/application.js",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/flashcards.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/sessions.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/static_pages.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/users.coffee",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/application_helper.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/sessions_controller_test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/fixtures/users.yml",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151110221728_create_flashcards.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/README.md",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/.travis.yml",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/gets/production.log",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/gets/production.l",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/gets/production..lo",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/application_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/initializers/backtrace_silencers.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/flashcards_controller.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/environments/test.rb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Rakefile",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/_sublime/server.csr",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/_sublime/test/integration/users_signup_test.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/_sublime/yourdomain.csr",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/server.csr",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/yourdomain.csr",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/new.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/new.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/flashcards_controller_test.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/test_helper.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/integration/users_signup_test.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/custom.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/show.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/application.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/index.html.erb",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/flashcards.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/application.scss",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/scaffolds.scss",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/users_controller.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/create.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/config/routes.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/users_helper.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111131024_create_users.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111202007_add_password_digest_to_users.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/users/show.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/flashcards_controller.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/edit.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/flashcards/_form.html.erb",
-		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_footer.html.erb",
+		"/Users/fergusbarratt/.bash_profile",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/models/user_test.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/controllers/users_controller_test.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/shared/_error_messages.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/assets/stylesheets/custom.scss",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Gemfile",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/Guardfile",
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/static_pages/about.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/user_controller.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/models/user.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/helpers/application_helper.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/static_pages.coffee",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/test/fixtures/users.yml",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/db/migrate/20151111194202_add_index_to_users_email.rb",
 		"/Users/fergusbarratt/bash/.git/MERGE_MSG",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/layouts/_header.html.erb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/javascripts/application.js",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/assets/stylesheets/application.css",
 		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/views/layouts/_shim.html.erb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/test_helper.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/test/controllers/static_pages_controller_test.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/helpers/application_helper.rb",
+		"/Users/fergusbarratt/Dropbox/RubyProject/flashcards/app/controllers/application_controller.rb",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/533/TestCarmichael#test_coprimes [/Users/fergusbarratt/Dropbox/ProjectEuler/533/test_carmichael.rb",
 		"/Users/fergusbarratt/Dropbox/ProjectEuler/531/531.rb",
 		"/Users/fergusbarratt/Dropbox/RubyProject/sample_app/app/views/static_pages/home.html.erb",
@@ -724,7 +667,28 @@
 		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Matlab.sublime-build",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/GeneratePlotValues.m",
 		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/plotseries.m",
-		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/qutip/mesolve.py"
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/qutip/mesolve.py",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/qutip/superoperator.py",
+		"/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/scipy/sparse/compressed.py",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/python3.sublime-build",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Matlab/GuidePlot.fig",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/Pylinter/Pylinter.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/User/Pylinter.sublime-settings",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fergusbarratt/CoverLetter.tex",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/Users/fergusbarratt/Library/Application Support/Sublime Text 2/Packages/python3.sublime-build",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/NeoclassicalDecay.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/NeoclassicalDecay.nb",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/Script.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/TitlePage.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/TeX/Literature Review/ProjectOutline.tex",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/QuasiProbabilityFunctions.m",
+		"/Users/fergusbarratt/Dropbox/University/Masters project/Mathematica/Quasi Probability Functions.nb"
 	],
 	"find":
 	{
@@ -742,7 +706,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"033",
 			"padding",
 			"class=\"table-header\"",
 			"p",
@@ -929,7 +892,7 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/_sublime/WebsiteProject.sublime-project"
+				"~/Dropbox/RubyProject/flashcards/flashcards.sublime-workspace"
 			]
 		],
 		"width": 380.0
